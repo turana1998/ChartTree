@@ -1,0 +1,90 @@
+body{
+    background-color: rgba(194, 224, 229, 0.383);
+}
+li{
+    list-style-type: none;
+}
+.text-center{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.text-center button{
+   border: none;
+   outline: none;
+   padding: 15px;
+   background-color: #fff;
+}
+.all{
+    width: 95%;
+    margin: auto;
+}
+.nested {
+    display: none;
+}
+.createChild{
+    background-color: rgb(185, 181, 181);
+    border-radius: 50%;
+    color: #fff;
+    padding: 4px 8px;
+    border: none;
+}
+.closeIT{
+    background-color: rgb(184, 33, 33);
+    border-radius: 50%;
+    color: #fff;
+    padding: 4px 8px;
+    border: none;
+}
+.active {
+    display: block;
+}
+
+.closeIT {
+    background-color: red;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+input {
+    overflow: visible;
+    border: none;
+}
+
+.fa {
+    pointer-events: none;
+}
+#backend{
+    display: flex;
+    justify-content: space-between;
+}
+#backend ul {
+    list-style: none;
+    border-left: 1px solid black;
+    padding: 0;
+    margin: 0;
+    padding-left: 35px;
+    display: flex;
+}
+
+#backend ul li {
+    position: relative;
+    text-transform: capitalize;
+}
+
+#backend ul li:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: -35px;
+    background: black;
+    height: 1px;
+    width: 32px;
+}
+#backend input{
+    background-color: rgb(226, 126, 54);
+    padding: 10px;
+    color: #fff;
+}
